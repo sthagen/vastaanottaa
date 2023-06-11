@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := all
 package = vastaanottaa
-black = black -S -l 120 --target-version py312 $(package) test
+black = black -S -l 120 --target-version py311 $(package) test
 lint = ruff $(package) test
 pytest = pytest --asyncio-mode=strict --cov=$(package) --cov-report term-missing:skip-covered --cov-branch --log-format="%(levelname)s %(message)s"
 types = mypy $(package)
