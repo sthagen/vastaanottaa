@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "vastaanottaa"
-version = "2023.6.11"
+version = "2023.6.12"
 description = "Receive (Finnish: vastaanottaa) text traversing unknown territories."
 readme = "README.md"
 authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
