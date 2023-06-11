@@ -9,22 +9,23 @@ Z0FBQUFBQmtoZERaTHN6Yk8tcnhRVFZfYzhPRnJMLWR2Q2Fnb2lRRGk4b0FxdkUyYWh3T3lUcm80
 TFloYTEyTmdfbWJMQXhjblpkX3VSZmxDQ0xRcm5FSEJvZHlzWlNfYXc9PQ==
 """
 
+SLT_NULL = ''
+
 
 def test_cli_send_uc_1(capsys):
     rc = cli.app(['send', SEC, SRC, SLT])
     assert rc == 0
     out, err = capsys.readouterr()
-    assert 'test' in out
-    assert not err
+    assert 'salt provided as parameter' in err
+    assert 'MESSAGE' in out
 
 
 def test_cli_recv_uc_1(capsys):
     rc = cli.app(['recv', SEC, TRG, SLT])
     assert rc == 0
     out, err = capsys.readouterr()
-    assert SLT.split('==', 1)[0] + '==' in out
+    assert 'content' in err
     assert SRC in out
-    assert not err
 
 
 def test_cli_uc_version_1(capsys):
@@ -32,9 +33,9 @@ def test_cli_uc_version_1(capsys):
         rc = cli.app([arg])
         assert rc == 0
         out, err = capsys.readouterr()
-        assert APP_ALIAS in out
-        assert VERSION in out
-        assert not err
+        assert APP_ALIAS in err
+        assert VERSION in err
+        assert not out
 
 
 def test_cli_uc_help_1(capsys):
@@ -42,56 +43,55 @@ def test_cli_uc_help_1(capsys):
         rc = cli.app([arg])
         assert rc == 0
         out, err = capsys.readouterr()
-        assert out.startswith('usage: ')
-        assert not err
+        assert 'usage: ' in err
 
 
 def test_cli_uc_short_0(capsys):
     rc = cli.app([])
     assert rc == 0
     out, err = capsys.readouterr()
-    assert out.startswith('usage: ')
-    assert not err
+    assert 'usage: ' in err
+    assert not out
 
 
 def test_cli_ac_short_1(capsys):
     rc = cli.app(['send'])
     assert rc == 2
     out, err = capsys.readouterr()
-    assert 'count' in out
-    assert not err
+    assert 'count' in err
+    assert not out
 
 
 def test_cli_ac_short_2(capsys):
     rc = cli.app(['send', SEC])
     assert rc == 2
     out, err = capsys.readouterr()
-    assert 'count' in out
-    assert not err
+    assert 'count' in err
+    assert not out
 
 
 def test_cli_ac_short_5(capsys):
     rc = cli.app(['send', SEC, 'and', 'wun', 'off'])
     assert rc == 2
     out, err = capsys.readouterr()
-    assert 'count' in out
-    assert not err
+    assert 'count' in err
+    assert not out
 
 
 def test_cli_ab_action(capsys):
     rc = cli.app(['unknown', SEC, SRC, SLT])
     assert rc == 2
     out, err = capsys.readouterr()
-    assert 'goal' in out
-    assert not err
+    assert 'goal' in err
+    assert not out
 
 
 def test_cli_ab_recv_no_salt(capsys):
     rc = cli.app(['recv', SEC, TRG])
     assert rc == 2
     out, err = capsys.readouterr()
-    assert 'salt' in out
-    assert not err
+    assert 'salt' in err
+    assert not out
 
 
 def test_cli_ab_data_zero_bytes(capsys):
@@ -99,6 +99,6 @@ def test_cli_ab_data_zero_bytes(capsys):
     rc = cli.app(['send', SEC, empty_source])
     assert rc == 1
     out, err = capsys.readouterr()
-    assert 'test' not in out
-    assert 'void' in out
-    assert not err
+    assert 'provided' not in err
+    assert 'void' in err
+    assert not out
