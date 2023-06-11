@@ -1,12 +1,13 @@
 import vastaanottaa.cli as cli
+from vastaanottaa import APP_ALIAS, VERSION
 
 SRC = 'README.mdxxxyyy'
 SEC = 'Wie schön.'
 SLT = 'n6ihE3dSantzwRwbs/prKw==\n'
-TRG = '''\
+TRG = """\
 Z0FBQUFBQmtoZERaTHN6Yk8tcnhRVFZfYzhPRnJMLWR2Q2Fnb2lRRGk4b0FxdkUyYWh3T3lUcm80
 TFloYTEyTmdfbWJMQXhjblpkX3VSZmxDQ0xRcm5FSEJvZHlzWlNfYXc9PQ==
-'''
+"""
 
 
 def test_cli_send_uc_1(capsys):
@@ -26,11 +27,30 @@ def test_cli_recv_uc_1(capsys):
     assert not err
 
 
-def test_cli_ac_short_0(capsys):
+def test_cli_uc_version_1(capsys):
+    for arg in ('-V', '--version', 'version'):
+        rc = cli.app([arg])
+        assert rc == 0
+        out, err = capsys.readouterr()
+        assert APP_ALIAS in out
+        assert VERSION in out
+        assert not err
+
+
+def test_cli_uc_help_1(capsys):
+    for arg in ('-h', '--help', 'help'):
+        rc = cli.app([arg])
+        assert rc == 0
+        out, err = capsys.readouterr()
+        assert out.startswith('usage: ')
+        assert not err
+
+
+def test_cli_uc_short_0(capsys):
     rc = cli.app([])
-    assert rc == 2
+    assert rc == 0
     out, err = capsys.readouterr()
-    assert 'count' in out
+    assert out.startswith('usage: ')
     assert not err
 
 

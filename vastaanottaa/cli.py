@@ -10,6 +10,7 @@ from typing import no_type_check
 from cryptography.fernet import Fernet
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+from vastaanottaa import APP_ALIAS, VERSION
 
 SEND = 'send'
 RECV = 'recv'
@@ -26,6 +27,15 @@ N_ITER = 480000
 def app(argv=None) -> int:
     """Do the thing."""
     argv = sys.argv[1:] if argv is None else argv
+
+    if len(argv) == 1 and argv[0] in ('-V', '--version', 'version'):
+        print(f'{APP_ALIAS} v{VERSION}')
+        return 0
+
+    if not argv or len(argv) == 1 and argv[0] in ('-h', '--help', 'help'):
+        print(f'usage: {APP_ALIAS} send|recv given text-or-file salt-for-recv')
+        return 0
+
     if len(argv) not in (3, 4):
         print('The count!')
         return 2
