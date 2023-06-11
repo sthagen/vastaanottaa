@@ -1,0 +1,7 @@
+digraph {
+	cffi -> pycparser [label=any]
+	cffi [label="cffi\n1.15.1"]
+	cryptography -> cffi [label=">=1.12"]
+	cryptography [label="cryptography\n41.0.1"]
+	pycparser [label="pycparser\n2.21"]
+}

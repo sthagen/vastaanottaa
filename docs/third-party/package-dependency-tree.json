@@ -1,0 +1,25 @@
+[
+    {
+        "key": "cryptography",
+        "package_name": "cryptography",
+        "installed_version": "41.0.1",
+        "required_version": "41.0.1",
+        "dependencies": [
+            {
+                "key": "cffi",
+                "package_name": "cffi",
+                "installed_version": "1.15.1",
+                "required_version": ">=1.12",
+                "dependencies": [
+                    {
+                        "key": "pycparser",
+                        "package_name": "pycparser",
+                        "installed_version": "2.21",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    }
+]
