@@ -29,6 +29,8 @@ def git_describe(always: bool = True) -> None:
     revision = 'abadcafe' if revision is None else revision.strip()
     if revision.startswith('nonce-'):
         revision = revision.split('-')[-1]
+    if '-' in revision:
+        revision = revision.split('-')[-1]
     print(TARGET.replace('$revision$', revision).replace('$version$', version))
 
 

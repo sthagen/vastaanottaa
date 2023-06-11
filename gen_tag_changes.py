@@ -1,4 +1,7 @@
+#! /usr/bin/env python
+"""Derive tag changes from markdown change log."""
 import pathlib
+
 ENCODING = 'utf-8'
 CHG_PATH = pathlib.Path('docs/changes.md')
 changes = [line.strip() for line in CHG_PATH.open('rt', encoding=ENCODING).readlines()]
