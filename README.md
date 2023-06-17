@@ -6,13 +6,11 @@ Receive (Finnish: vastaanottaa) text traversing unknown territories.
 
 Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
 
-<!--
 [![version](https://img.shields.io/pypi/v/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
 [![downloads](https://pepy.tech/badge/vastaanottaa/month)](https://pepy.tech/project/vastaanottaa)
 [![wheel](https://img.shields.io/pypi/wheel/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
--->
 
 ## Documentation
 
