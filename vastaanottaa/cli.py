@@ -26,6 +26,11 @@ N_ITER = 480000
 ARMOR_MSG_BEGIN = f'---- BEGIN {APP_ENV} MESSAGE ----'
 ARMOR_MSG_END = f'---- END {APP_ENV} MESSAGE ----'
 
+ARMOR_MSG_BEGIN_BYTES = ARMOR_MSG_BEGIN.encode(ENCODING)
+ARMOR_MSG_END_BYTES = ARMOR_MSG_BEGIN.encode(ENCODING)
+
+ARMOR_PADDED_LENGTH = len(ARMOR_MSG_BEGIN_BYTES) + 1 + len(ARMOR_MSG_END_BYTES) + 1
+
 ARMOR_SALT_BEGIN = f'---- BEGIN {APP_ENV} SALT ----'
 ARMOR_SALT_END = f'---- END {APP_ENV} SALT ----'
 
@@ -107,6 +112,9 @@ def app(argv=None) -> int:
         print(base64.encodebytes(salt), file=sys.stderr)
         print(ARMOR_SALT_END, file=sys.stderr)
         return 0
+
+    if src_data.startswith(ARMOR_MSG_BEGIN_BYTES) and len(src_data) > ARMOR_PADDED_LENGTH:
+        src_data = src_data[len(ARMOR_MSG_BEGIN_BYTES) + 1 : -len(ARMOR_MSG_END_BYTES) + 1]
 
     rcv = base64.decodebytes(src_data)
     print(f.decrypt(rcv).decode(ENCODING))
