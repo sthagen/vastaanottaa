@@ -29,7 +29,9 @@ do
     printf "  + %s:" "${h}"
     ${h}sum "${path}" | cut -f 1 -d ' '
 done
-printf "  + %s:" "tlsh"
+printf "  + %s:" "ssdeep"
+ssdeep "${path}" | grep -v ssdeep | cut -f 1 -d ',' | tr -d "\n"
+printf "\n  + %s:" "tlsh"
 tlsh -f "${path}" | cut -f 1 | tr -d "\n"
 printf "\n"
 
