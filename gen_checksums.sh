@@ -16,7 +16,13 @@ printf ")"
 printf "\n    * %s:" "hex32"
 xxd -ad -ps -g 32 -c 32 -len 32 "${path}" | tr -d "\n"
 printf "\n    * %s:" "md5"
-md5sum "${path}" | cut -f 1 -d ' '
+md5sum "${path}" | cut -f 1 -d ' ' | tr -d "\n"
+printf "\n    * %s:(" "mime-encoding"
+file --mime-encoding "${path}" | cut -f 2- -d ':' | cut -c 2- | tr -d "\n"
+printf ")"
+printf "\n    * %s:(" "mime-type"
+file --mime-type "${path}" | cut -f 2- -d ':' | cut -c 2- | tr -d "\n"
+printf ")\n"
 for h in sha sha256 sha384 sha512
 do 
     printf "    * %s:" "${h}"
