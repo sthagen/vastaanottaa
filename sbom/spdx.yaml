@@ -1,0 +1,42 @@
+---
+SPDXID: "SPDXRef-DOCUMENT"
+spdxVersion: "SPDX-2.3"
+creationInfo:
+  comment: "Converted from CycloneDX spec version 1.4"
+  created: "2023-06-17T14:11:50Z"
+  creators:
+  - "Tool: CycloneDX:cyclonedx-bom-3.11.0"
+  - "Tool: CycloneDX:cyclonedx-python-lib-3.1.5"
+  - "Tool: CycloneToSpdx-0.1.4"
+  licenseListVersion: "3.20"
+name: "SBOM-for-cryptography"
+dataLicense: "CC0-1.0"
+annotations:
+- annotationDate: "2023-06-17T14:11:52Z"
+  annotationType: "OTHER"
+  annotator: "Tool: CycloneToSpdx"
+  comment: "MISSING_CDX_PROPERTY:extensions={}"
+documentNamespace: "https://cyclonedx/15636f69-68f3-42af-a56e-d8f3b7dbf8e4_1"
+packages:
+- SPDXID: "SPDXRef-eb252b35-ff2f-40d8-a8db-6461e5dc0986"
+  annotations:
+  - annotationDate: "2023-06-17T14:11:52Z"
+    annotationType: "OTHER"
+    annotator: "Tool: CycloneToSpdx"
+    comment: "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
+  copyrightText: "NOASSERTION"
+  downloadLocation: "NOASSERTION"
+  externalRefs:
+  - referenceCategory: "PACKAGE-MANAGER"
+    referenceLocator: "pkg:pypi/cryptography@41.0.1"
+    referenceType: "purl"
+  filesAnalyzed: false
+  licenseConcluded: "NOASSERTION"
+  licenseDeclared: "NOASSERTION"
+  name: "cryptography"
+  primaryPackagePurpose: "LIBRARY"
+  versionInfo: "41.0.1"
+relationships:
+- spdxElementId: "SPDXRef-DOCUMENT"
+  relationshipType: "DESCRIBES"
+  relatedSpdxElement: "SPDXRef-eb252b35-ff2f-40d8-a8db-6461e5dc0986"
