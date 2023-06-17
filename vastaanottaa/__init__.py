@@ -1,7 +1,7 @@
 """Receive (Finnish: vastaanottaa) text traversing unknown territories."""
 # [[[fill git_describe()]]]
-__version__ = '2023.6.12+parent.gf1b5cf69'
-# [[[end]]] (checksum: c65b3f25c3013583a659479eccace65b)
+__version__ = '2023.6.17+parent.g290b9c34'
+# [[[end]]] (checksum: f906d477470ad7cc9067b497c89ebd43)
 __version_info__ = tuple(
     e if '-' not in e else e.split('-')[0] for part in __version__.split('+') for e in part.split('.') if e != 'parent'
 )
