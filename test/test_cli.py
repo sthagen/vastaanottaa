@@ -11,6 +11,11 @@ TFloYTEyTmdfbWJMQXhjblpkX3VSZmxDQ0xRcm5FSEJvZHlzWlNfYXc9PQ==
 
 SLT_NULL = ''
 
+SRC_ARMOR_A_1 = 'test/fixtures/basic/armored.vastaanottaa'
+SRC_RAW_A_1 = 'test/fixtures/basic/armored.vastaanottaa.raw'
+SEC_A_1 = 'ja'
+SLT_A_1 = '213gJL0ib2LC++IyWx97VA==\n'
+
 
 def test_cli_send_uc_1(capsys):
     rc = cli.app(['send', SEC, SRC, SLT])
@@ -26,6 +31,22 @@ def test_cli_recv_uc_1(capsys):
     out, err = capsys.readouterr()
     assert 'content' in err
     assert SRC in out
+
+
+def test_cli_recv_uc_armor_a_1(capsys):
+    rc = cli.app(['recv', SEC_A_1, SRC_ARMOR_A_1, SLT_A_1])
+    assert rc == 0
+    out, err = capsys.readouterr()
+    assert 'content' in err
+    assert 'nein' in out
+
+
+def test_cli_recv_uc_raw_a_1(capsys):
+    rc = cli.app(['recv', SEC_A_1, SRC_RAW_A_1, SLT_A_1])
+    assert rc == 0
+    out, err = capsys.readouterr()
+    assert 'content' in err
+    assert 'nein' in out
 
 
 def test_cli_uc_version_1(capsys):
