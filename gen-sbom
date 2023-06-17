@@ -1,4 +1,14 @@
 #! /usr/bin/env bash
 # Generate SBOM in CycloneDX v1.4 JSON format from requirements
-cyclonedx-py --format json --requirements --in-file requirements.txt --output - | jq . > sbom.json
-sha256sum sbom.json | cut -f1 -d' ' > sbom.json.sha256
+cyclonedx-py --format json --requirements --in-file requirements.txt --output - | jq . > sbom/cdx.json
+sha256sum sbom/cdx.json | cut -f1 -d' ' > sbom/cdx.json.sha256
+b3sum sbom/cdx.json | cut -f1 -d ' ' > sbom/cdx.json.blake3
+tlsh -f sbom/cdx.json | cut -f1 > sbom/cdx.json.tlsh
+cdx2spdx sbom/cdx.json sbom/spdx.json
+sha256sum sbom/spdx.json | cut -f1 -d' ' > sbom/spdx.json.sha256
+b3sum sbom/spdx.json | cut -f1 -d ' ' > sbom/spdx.json.blake3
+tlsh -f sbom/spdx.json | cut -f1 > sbom/spdx.json.tlsh
+cdx2spdx sbom/cdx.json sbom/spdx.spdx
+sha256sum sbom/spdx.spdx | cut -f1 -d' ' > sbom/spdx.spdx.sha256
+b3sum sbom/spdx.spdx | cut -f1 -d ' ' > sbom/spdx.spdx.blake3
+tlsh -f sbom/spdx.spdx | cut -f1 > sbom/spdx.spdx.tlsh
