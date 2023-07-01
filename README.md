@@ -11,6 +11,7 @@ Third party dependencies are documented in the folder [third-party](docs/third-p
 [![wheel](https://img.shields.io/pypi/wheel/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
+[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/vastaanottaa.svg?style=flat)](https://git.sr.ht/~sthagen/vastaanottaa/log)
 
 ## Documentation
 
