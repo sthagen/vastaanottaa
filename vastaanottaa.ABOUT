@@ -1,0 +1,14 @@
+name: vastaanottaa
+description: Receive (Finnish: vastaanottaa) text traversing unknown territories.
+license_spdx: MIT
+version: 2023.6.17
+spec_version: 1.0
+home_url: https://git.sr.ht/~sthagen/vastaanottaa
+news_url: https://libraries.io/pypi/vastaanottaa/versions.atom
+date: 2023-06-17
+about_resource: ./
+libraries_io_url: https://libraries.io/pypi/vastaanottaa?number=2023.6.17
+vcs_tool: git
+vcs_repository: https://git.sr.ht/~sthagen/vastaanottaa
+vcs_branch: default
+
