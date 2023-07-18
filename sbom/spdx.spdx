@@ -1,41 +1,41 @@
 SPDXVersion: SPDX-2.3
 DataLicense: CC0-1.0
-DocumentNamespace: https://cyclonedx/28ec668a-4c9f-4067-ad33-789ef4033000_1
+DocumentNamespace: https://cyclonedx/7bcd79d6-3573-4780-8ed9-6de26dbec686_1
 DocumentName: SBOM-for-cryptography
 SPDXID: SPDXRef-DOCUMENT
 
 ## Creation Information
-Creator: Tool: CycloneDX:cyclonedx-bom-3.11.0
+Creator: Tool: CycloneDX:cyclonedx-bom-3.11.2
 Creator: Tool: CycloneDX:cyclonedx-python-lib-3.1.5
 Creator: Tool: CycloneToSpdx-0.1.4
-Created: 2023-06-17T14:49:44Z
+Created: 2023-07-18T18:46:29Z
 CreatorComment: <text>Converted from CycloneDX spec version 1.4</text>
-LicenseListVersion: 3.20
+LicenseListVersion: 3.21
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-06-17T14:49:45Z
+AnnotationDate: 2023-07-18T18:46:31Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:extensions={}</text>
 AnnotationType: OTHER
 SPDXREF: SPDXRef-DOCUMENT
 ## Relationships
-Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-57a8eedd-6f1e-495f-8b01-b00a97c042ed
+Relationship: SPDXRef-DOCUMENT DESCRIBES SPDXRef-abdda4cc-7efb-4da5-8f27-cf87775de053
 
 ## Package Information
 PackageName: cryptography
-SPDXID: SPDXRef-57a8eedd-6f1e-495f-8b01-b00a97c042ed
-PackageVersion: 41.0.1
+SPDXID: SPDXRef-abdda4cc-7efb-4da5-8f27-cf87775de053
+PackageVersion: 41.0.2
 PackageDownloadLocation: NOASSERTION
 PrimaryPackagePurpose: LIBRARY
 PackageLicenseConcluded: NOASSERTION
 PackageLicenseDeclared: NOASSERTION
 PackageCopyrightText: NOASSERTION
-ExternalRef: PACKAGE-MANAGER purl pkg:pypi/cryptography@41.0.1
+ExternalRef: PACKAGE-MANAGER purl pkg:pypi/cryptography@41.0.2
 ## Annotations
 Annotator: Tool: CycloneToSpdx
-AnnotationDate: 2023-06-17T14:49:45Z
+AnnotationDate: 2023-07-18T18:46:31Z
 AnnotationComment: <text>MISSING_CDX_PROPERTY:componentType="LIBRARY"</text>
 AnnotationType: OTHER
-SPDXREF: SPDXRef-57a8eedd-6f1e-495f-8b01-b00a97c042ed
+SPDXREF: SPDXRef-abdda4cc-7efb-4da5-8f27-cf87775de053
 FilesAnalyzed: false
 
 
