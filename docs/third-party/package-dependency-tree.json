@@ -2,8 +2,8 @@
     {
         "key": "cryptography",
         "package_name": "cryptography",
-        "installed_version": "41.0.1",
-        "required_version": "41.0.1",
+        "installed_version": "41.0.2",
+        "required_version": "41.0.2",
         "dependencies": [
             {
                 "key": "cffi",

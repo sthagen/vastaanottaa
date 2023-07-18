@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/vastaanottaa/blob/default/sbom/cdx.json) with SHA256 checksum ([4d977437 ...](https://git.sr.ht/~sthagen/vastaanottaa/blob/default/sbom/cdx.json.sha256 "sha256:4d977437ac679555dad8353189a0d1cdc0a728d2e70d2cec49d3dc7dab4de6b0")).
-<!--[[[end]]] (checksum: aff4fc0888929034b76db71fb9a6ddaf)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/vastaanottaa/blob/default/sbom/cdx.json) with SHA256 checksum ([624d89da ...](https://git.sr.ht/~sthagen/vastaanottaa/blob/default/sbom/cdx.json.sha256 "sha256:624d89da52da4f5dc52a9c47465177c2da74a85fdacceb648a8b1981ef7e3cab")).
+<!--[[[end]]] (checksum: 685ba1013df3a0c11a1d7a4c656c28ab)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -12,8 +12,8 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 <!--[[[fill direct_dependencies_table()]]]-->
 | Name                                                 | Version                                                 | License                              | Author                                                                                       | Description (from packaging data)                                                                   |
 |:-----------------------------------------------------|:--------------------------------------------------------|:-------------------------------------|:---------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------|
-| [cryptography](https://github.com/pyca/cryptography) | [41.0.1](https://pypi.org/project/cryptography/41.0.1/) | Apache Software License; BSD License | The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org> | cryptography is a package which provides cryptographic recipes and primitives to Python developers. |
-<!--[[[end]]] (checksum: 3699b02c2b519bcec73f6d3a8a8d05bf)-->
+| [cryptography](https://github.com/pyca/cryptography) | [41.0.2](https://pypi.org/project/cryptography/41.0.2/) | Apache Software License; BSD License | The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org> | cryptography is a package which provides cryptographic recipes and primitives to Python developers. |
+<!--[[[end]]] (checksum: e3ef62a6533a858af83b36478887ee43)-->
 
 ### Indirect Dependencies
 
@@ -38,8 +38,8 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
-cryptography==41.0.1
+cryptography==41.0.2
 └── cffi [required: >=1.12, installed: 1.15.1]
     └── pycparser [required: Any, installed: 2.21]
 ````
-<!--[[[end]]] (checksum: 5ffa82036ac2e13f4ed564f7f19c4f14)-->
+<!--[[[end]]] (checksum: e1aac276a5eec102c5f305050d8dd296)-->

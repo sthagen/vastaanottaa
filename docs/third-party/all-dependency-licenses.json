@@ -15,13 +15,13 @@
     "Author": "The Python Cryptographic Authority and individual contributors <cryptography-dev@python.org>",
     "Description": "cryptography is a package which provides cryptographic recipes and primitives to Python developers.",
     "License": "Apache Software License; BSD License",
-    "LicenseFile": "/Users/ruth/.pyenv/versions/3.11.2/envs/vastaanottaa-3-11-2/lib/python3.11/site-packages/cryptography-41.0.1.dist-info/LICENSE",
+    "LicenseFile": "/Users/ruth/.pyenv/versions/3.11.2/envs/vastaanottaa-3-11-2/lib/python3.11/site-packages/cryptography-41.0.2.dist-info/LICENSE",
     "LicenseText": "This software is made available under the terms of *either* of the licenses\nfound in LICENSE.APACHE or LICENSE.BSD. Contributions to cryptography are made\nunder the terms of *both* these licenses.\n",
     "Name": "cryptography",
     "NoticeFile": "UNKNOWN",
     "NoticeText": "UNKNOWN",
     "URL": "https://github.com/pyca/cryptography",
-    "Version": "41.0.1"
+    "Version": "41.0.2"
   },
   {
     "Author": "Eli Bendersky",
