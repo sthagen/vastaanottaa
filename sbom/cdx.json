@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:ed74a30b-d436-44f6-b58a-441b63875c0c",
+  "serialNumber": "urn:uuid:d12f7e2e-c7d5-48d2-bcdc-9d049bb8fa59",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-08-15T06:32:18.277021+00:00",
+    "timestamp": "2023-08-16T06:53:31.658993+00:00",
     "tools": [
       {
         "vendor": "CycloneDX",
@@ -56,7 +56,7 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "e21fc89f-5fdf-40b3-aca1-945dc97aff2d",
+      "bom-ref": "f0b0dc65-c236-4385-95f5-15fd5baf098e",
       "name": "cryptography",
       "version": "41.0.2",
       "purl": "pkg:pypi/cryptography@41.0.2"
@@ -64,7 +64,7 @@
   ],
   "dependencies": [
     {
-      "ref": "e21fc89f-5fdf-40b3-aca1-945dc97aff2d",
+      "ref": "f0b0dc65-c236-4385-95f5-15fd5baf098e",
       "dependsOn": []
     }
   ]
