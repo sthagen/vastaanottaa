@@ -2,18 +2,15 @@
 
 Receive (Finnish: vastaanottaa) text traversing unknown territories.
 
-[License: MIT](https://git.sr.ht/~sthagen/vastaanottaa/tree/default/item/LICENSE) |
-[Country of origin: Switzerland](https://git.sr.ht/~sthagen/vastaanottaa/tree/default/item/COUNTRY-OF-ORIGIN) |
-[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/vastaanottaa/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![license](badges/license-spdx-mit.svg)](https://git.sr.ht/~sthagen/vastaanottaa/tree/default/item/LICENSE)
+[![Country of Origin](badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/vastaanottaa/tree/default/item/COUNTRY-OF-ORIGIN)
+[![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/vastaanottaa/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).
-
-[![version](https://img.shields.io/pypi/v/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
-[![downloads](https://static.pepy.tech/badge/vastaanottaa/month)](https://pepy.tech/project/vastaanottaa)
-[![wheel](https://img.shields.io/pypi/wheel/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
-[![supported-versions](https://img.shields.io/pypi/pyversions/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
-[![supported-implementations](https://img.shields.io/pypi/implementation/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
-[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/vastaanottaa.svg?style=flat)](https://git.sr.ht/~sthagen/vastaanottaa/log)
+[![Version](https://img.shields.io/pypi/v/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
+[![Downloads](https://static.pepy.tech/badge/vastaanottaa/month)](https://pepy.tech/project/vastaanottaa)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
+[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/vastaanottaa.svg?style=flat)](https://git.sr.ht/~sthagen/vastaanottaa/log)
 
 ## Bug Tracker
 
