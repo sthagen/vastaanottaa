@@ -1,0 +1,237 @@
+{
+  "info": {
+    "author": "",
+    "author_email": "Stefan Hagen <stefan@hagen.link>",
+    "bugtrack_url": null,
+    "classifiers": [
+      "Development Status :: 3 - Alpha",
+      "Intended Audience :: Developers",
+      "License :: OSI Approved :: MIT License",
+      "Programming Language :: Python :: 3.10",
+      "Programming Language :: Python :: 3.12",
+      "Programming Language :: Python :: 3.9"
+    ],
+    "description": "# Vastaanottaa\n\nReceive (Finnish: vastaanottaa) text traversing unknown territories.\n\n[License: MIT](https://git.sr.ht/~sthagen/vastaanottaa/tree/default/item/LICENSE)\n\nThird party dependencies are documented in the folder [third-party](docs/third-party/README.md).\n\n<!--\n[![version](https://img.shields.io/pypi/v/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)\n[![downloads](https://pepy.tech/badge/vastaanottaa/month)](https://pepy.tech/project/vastaanottaa)\n[![wheel](https://img.shields.io/pypi/wheel/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)\n[![supported-versions](https://img.shields.io/pypi/pyversions/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)\n[![supported-implementations](https://img.shields.io/pypi/implementation/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)\n-->\n\n## Documentation\n\nUser and developer [documentation of vastaanottaa](https://codes.dilettant.life/docs/vastaanottaa).\n\n## Bug Tracker\n\nAny feature requests or bug reports shall go to the [todos of vastaanottaa](https://todo.sr.ht/~sthagen/vastaanottaa).\n\n## Primary Source repository\n\nThe main source of `vastaanottaa` is on a mountain in central Switzerland.\nWe use distributed version control (git).\nThere is no central hub.\nEvery clone can become a new source for the benefit of all.\nThe preferred public clones of `vastaanottaa` are:\n\n* [on codeberg](https://codeberg.org/sthagen/vastaanottaa) - a democratic community-driven, non-profit software development platform operated by Codeberg e.V.\n* [at sourcehut](https://git.sr.ht/~sthagen/vastaanottaa) - a collection of tools useful for software development.\n\n## Contributions\n\nPlease do not submit \"pull requests\" (I found no way to disable that \"feature\" on GitHub).\nIf you like to share small changes under the repositories license please kindly do so by sending a patchset.\nYou can either send such a patchset per email using [git send-email](https://git-send-email.io) or \nif you are a sourcehut user by selecting \"Prepare a patchset\" on the summary page of your fork at [sourcehut](https://git.sr.ht/).\n\n# Status\n\nExperimental.\n\n**Note** The default branch is `default`.\n",
+    "description_content_type": "text/markdown",
+    "docs_url": null,
+    "download_url": "",
+    "downloads": {
+      "last_day": -1,
+      "last_month": -1,
+      "last_week": -1
+    },
+    "home_page": "",
+    "keywords": "developer-tools,devops",
+    "license": "",
+    "maintainer": "",
+    "maintainer_email": "Stefan Hagen <stefan@hagen.link>",
+    "name": "vastaanottaa",
+    "package_url": "https://pypi.org/project/vastaanottaa/",
+    "platform": null,
+    "project_url": "https://pypi.org/project/vastaanottaa/",
+    "project_urls": {
+      "Bug-Tracker": "https://todo.sr.ht/~sthagen/vastaanottaa",
+      "Documentation": "https://codes.dilettant.life/docs/vastaanottaa",
+      "Homepage": "https://git.sr.ht/~sthagen/vastaanottaa",
+      "Source-Code": "https://git.sr.ht/~sthagen/vastaanottaa",
+      "Test-Coverage": "https://codes.dilettant.life/coverage/vastaanottaa"
+    },
+    "release_url": "https://pypi.org/project/vastaanottaa/2023.6.17/",
+    "requires_dist": [
+      "cryptography (>=41.0.1)",
+      "black ; extra == 'dev'",
+      "coverage ; extra == 'dev'",
+      "hypothesis ; extra == 'dev'",
+      "mypy ; extra == 'dev'",
+      "pytest ; extra == 'dev'",
+      "pytest-cov ; extra == 'dev'",
+      "pytest-flake8 ; extra == 'dev'",
+      "ruff ; extra == 'dev'"
+    ],
+    "requires_python": ">=3.9",
+    "summary": "Receive (Finnish: vastaanottaa) text traversing unknown territories.",
+    "version": "2023.6.17",
+    "yanked": false,
+    "yanked_reason": null
+  },
+  "last_serial": 18543947,
+  "releases": {
+    "2023.6.11": [
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "56e8c152c987fc0d188a5c5bce44e968139a0b737ea178f483b13e5c322b3c43",
+          "md5": "4eea0a0c58214fd37bcd02bd889cc322",
+          "sha256": "6ed133c093b2a2c95856a35d69c5ce6b439e4ec14373ecda995fa40914509f42"
+        },
+        "downloads": -1,
+        "filename": "vastaanottaa-2023.6.11-py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "4eea0a0c58214fd37bcd02bd889cc322",
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 5472,
+        "upload_time": "2023-06-11T15:26:33",
+        "upload_time_iso_8601": "2023-06-11T15:26:33.141302Z",
+        "url": "https://files.pythonhosted.org/packages/56/e8/c152c987fc0d188a5c5bce44e968139a0b737ea178f483b13e5c322b3c43/vastaanottaa-2023.6.11-py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "c6f4124e92bb99bd35b9cf81a8f1498710db07246df978a39cfa92b09044d9f1",
+          "md5": "e3af088637d2b5f4ec8fb6efaf28d092",
+          "sha256": "f7e9134cc0b2988b462da9318c00a44951f825c77eba477e704c5a410b1928c0"
+        },
+        "downloads": -1,
+        "filename": "vastaanottaa-2023.6.11.tar.gz",
+        "has_sig": false,
+        "md5_digest": "e3af088637d2b5f4ec8fb6efaf28d092",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 6330,
+        "upload_time": "2023-06-11T15:26:34",
+        "upload_time_iso_8601": "2023-06-11T15:26:34.928970Z",
+        "url": "https://files.pythonhosted.org/packages/c6/f4/124e92bb99bd35b9cf81a8f1498710db07246df978a39cfa92b09044d9f1/vastaanottaa-2023.6.11.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2023.6.12": [
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "ee2344d1c426d404474cf0bf00063b313b6321b84475a1e3b0d33655cf8aae0a",
+          "md5": "3dcb3b99c56507ac742de91fdf5e365f",
+          "sha256": "468b0978d5faf28f24b12b718a52550714aa718200b3b12888ccacb9bf6355cf"
+        },
+        "downloads": -1,
+        "filename": "vastaanottaa-2023.6.12-py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "3dcb3b99c56507ac742de91fdf5e365f",
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 5687,
+        "upload_time": "2023-06-11T19:05:11",
+        "upload_time_iso_8601": "2023-06-11T19:05:11.194503Z",
+        "url": "https://files.pythonhosted.org/packages/ee/23/44d1c426d404474cf0bf00063b313b6321b84475a1e3b0d33655cf8aae0a/vastaanottaa-2023.6.12-py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "b5e91d217ffc39a92f5d0c8761575309419a4c13e89e746bb8afd738a49044aa",
+          "md5": "e42975e620323d1b1f2de5cb1fbea69a",
+          "sha256": "a68f35cd03a320a145b71941aca6887272d9f5a158f6cc915188d4c2fd75d3b4"
+        },
+        "downloads": -1,
+        "filename": "vastaanottaa-2023.6.12.tar.gz",
+        "has_sig": false,
+        "md5_digest": "e42975e620323d1b1f2de5cb1fbea69a",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 6530,
+        "upload_time": "2023-06-11T19:05:12",
+        "upload_time_iso_8601": "2023-06-11T19:05:12.830505Z",
+        "url": "https://files.pythonhosted.org/packages/b5/e9/1d217ffc39a92f5d0c8761575309419a4c13e89e746bb8afd738a49044aa/vastaanottaa-2023.6.12.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ],
+    "2023.6.17": [
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "7a9d82e47af3764b4afc4c3292e8fc3a97c336f612634e3185811a9e76c218b4",
+          "md5": "9a754e6fe461d24f0d92abeb965ccdb8",
+          "sha256": "bbd90787c7f9b0bd41034ed55f8f56e8acd4e9ee4f1ee30a78273de1abdef88a"
+        },
+        "downloads": -1,
+        "filename": "vastaanottaa-2023.6.17-py3-none-any.whl",
+        "has_sig": false,
+        "md5_digest": "9a754e6fe461d24f0d92abeb965ccdb8",
+        "packagetype": "bdist_wheel",
+        "python_version": "py3",
+        "requires_python": ">=3.9",
+        "size": 5781,
+        "upload_time": "2023-06-17T15:00:40",
+        "upload_time_iso_8601": "2023-06-17T15:00:40.751527Z",
+        "url": "https://files.pythonhosted.org/packages/7a/9d/82e47af3764b4afc4c3292e8fc3a97c336f612634e3185811a9e76c218b4/vastaanottaa-2023.6.17-py3-none-any.whl",
+        "yanked": false,
+        "yanked_reason": null
+      },
+      {
+        "comment_text": "",
+        "digests": {
+          "blake2b_256": "5ad19966a7d51b850af5122f050efd62e01a4cbbf7d6e0782ef9f8e87b13fa49",
+          "md5": "cb78810bec71162095fc77f9b119b0f5",
+          "sha256": "15eb411d0a1f4a796b3eb9cd7f942c4022f11a9d9e862c88b1e6f20c140d477d"
+        },
+        "downloads": -1,
+        "filename": "vastaanottaa-2023.6.17.tar.gz",
+        "has_sig": false,
+        "md5_digest": "cb78810bec71162095fc77f9b119b0f5",
+        "packagetype": "sdist",
+        "python_version": "source",
+        "requires_python": ">=3.9",
+        "size": 6746,
+        "upload_time": "2023-06-17T15:00:42",
+        "upload_time_iso_8601": "2023-06-17T15:00:42.149075Z",
+        "url": "https://files.pythonhosted.org/packages/5a/d1/9966a7d51b850af5122f050efd62e01a4cbbf7d6e0782ef9f8e87b13fa49/vastaanottaa-2023.6.17.tar.gz",
+        "yanked": false,
+        "yanked_reason": null
+      }
+    ]
+  },
+  "urls": [
+    {
+      "comment_text": "",
+      "digests": {
+        "blake2b_256": "7a9d82e47af3764b4afc4c3292e8fc3a97c336f612634e3185811a9e76c218b4",
+        "md5": "9a754e6fe461d24f0d92abeb965ccdb8",
+        "sha256": "bbd90787c7f9b0bd41034ed55f8f56e8acd4e9ee4f1ee30a78273de1abdef88a"
+      },
+      "downloads": -1,
+      "filename": "vastaanottaa-2023.6.17-py3-none-any.whl",
+      "has_sig": false,
+      "md5_digest": "9a754e6fe461d24f0d92abeb965ccdb8",
+      "packagetype": "bdist_wheel",
+      "python_version": "py3",
+      "requires_python": ">=3.9",
+      "size": 5781,
+      "upload_time": "2023-06-17T15:00:40",
+      "upload_time_iso_8601": "2023-06-17T15:00:40.751527Z",
+      "url": "https://files.pythonhosted.org/packages/7a/9d/82e47af3764b4afc4c3292e8fc3a97c336f612634e3185811a9e76c218b4/vastaanottaa-2023.6.17-py3-none-any.whl",
+      "yanked": false,
+      "yanked_reason": null
+    },
+    {
+      "comment_text": "",
+      "digests": {
+        "blake2b_256": "5ad19966a7d51b850af5122f050efd62e01a4cbbf7d6e0782ef9f8e87b13fa49",
+        "md5": "cb78810bec71162095fc77f9b119b0f5",
+        "sha256": "15eb411d0a1f4a796b3eb9cd7f942c4022f11a9d9e862c88b1e6f20c140d477d"
+      },
+      "downloads": -1,
+      "filename": "vastaanottaa-2023.6.17.tar.gz",
+      "has_sig": false,
+      "md5_digest": "cb78810bec71162095fc77f9b119b0f5",
+      "packagetype": "sdist",
+      "python_version": "source",
+      "requires_python": ">=3.9",
+      "size": 6746,
+      "upload_time": "2023-06-17T15:00:42",
+      "upload_time_iso_8601": "2023-06-17T15:00:42.149075Z",
+      "url": "https://files.pythonhosted.org/packages/5a/d1/9966a7d51b850af5122f050efd62e01a4cbbf7d6e0782ef9f8e87b13fa49/vastaanottaa-2023.6.17.tar.gz",
+      "yanked": false,
+      "yanked_reason": null
+    }
+  ],
+  "vulnerabilities": []
+}
