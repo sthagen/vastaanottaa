@@ -8,7 +8,7 @@ Receive (Finnish: vastaanottaa) text traversing unknown territories.
 [![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
 [![Version](https://img.shields.io/pypi/v/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
-[![Downloads](https://static.pepy.tech/badge/vastaanottaa/month)](https://pepy.tech/project/vastaanottaa)
+[![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/vastaanottaa)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
 [![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/vastaanottaa/log)
 
