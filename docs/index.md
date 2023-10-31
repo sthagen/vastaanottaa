@@ -7,7 +7,7 @@ Receive (Finnish: vastaanottaa) text traversing unknown territories.
 [![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/vastaanottaa/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
 [![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-[![Version](https://img.shields.io/pypi/v/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
+[![Version](badges/latest-release.svg)](https://pypi.python.org/pypi/vastaanottaa/)
 [![Downloads](badges/downloads-per-month.svg)](https://pepy.tech/project/vastaanottaa)
 [![Supported Versions](https://img.shields.io/pypi/pyversions/vastaanottaa.svg?style=flat)](https://pypi.python.org/pypi/vastaanottaa/)
 [![Maintenance Status](badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/vastaanottaa/log)
