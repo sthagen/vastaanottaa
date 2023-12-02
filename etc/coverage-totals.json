@@ -1,7 +1,7 @@
 {
   "vastaanottaa": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:38:18.103270",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 16:34:31 +00:00",
     "branch_coverage": true,
     "show_contexts": true,
     "covered_lines": 102,
@@ -13,6 +13,21 @@
     "num_branches": 26,
     "num_partial_branches": 0,
     "covered_branches": 26,
-    "missing_branches": 0
+    "missing_branches": 0,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 2,
+    "files": [
+      "vastaanottaa/__init__.py",
+      "vastaanottaa/cli.py"
+    ],
+    "blake3": "fe1f84c8203f92f2eb5d457705e2d0f45da674817a328409107b9a2b5d4f9052",
+    "blake2": "c54f4809627cc172759df914cc19deb2f5a024545cf6038c3ece2a03fb2efe5511c613dd3eac4d145b2c1f6b20cb3e2b98e051d147a3a3179675744ba6a89e6a",
+    "sha512": "c4df3b8be202da41c840048c1c7b9ca42c8b0b62bf5cba4a1bb43495a33cf3b3c2c572333ead07ffc5367983e482231d8b03a31173247fcfd8561d0df3d90473",
+    "sha384": "1ab4d5af9cd85f4b6812d83e56c7d033989ee00657c627f534f531d178c3663edf8178dd0098373f84a20ecddbf48a6a",
+    "sha256": "6c22721dfe435c469ca7faeac3d0f851f88b10fe08318c36dc24654e2fbefd4a",
+    "sha1": "84dfce8c219aac32540fac9402ebaaa9702977e7",
+    "md5": "0e17455c4f70528be256c583d78def20",
+    "python_version": "3.11.4",
+    "entropy": 5.22157
   }
 }
