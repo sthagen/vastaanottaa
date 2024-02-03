@@ -1,4 +1,5 @@
 """Receive (Finnish: vastaanottaa) text traversing unknown territories."""
+
 import pathlib
 
 # [[[fill git_describe()]]]

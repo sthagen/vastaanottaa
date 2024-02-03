@@ -1,4 +1,5 @@
 """Command line interface for vastaanottaa."""
+
 # import argparse
 import base64
 import datetime as dti
@@ -81,7 +82,7 @@ def app(argv=None) -> int:
         print('INFO: Loading content from parameter', file=sys.stderr)
         src_data = src.encode(ENCODING)
 
-    if not src_data:
+    if not src_data:  # type: ignore
         print('ERROR: afraid of the void - content for message has zero bytes', file=sys.stderr)
         print(USAGE_INFO, file=sys.stderr)
         return 1
@@ -98,7 +99,7 @@ def app(argv=None) -> int:
     ts_dt = dti.datetime.fromtimestamp(ts, dti.timezone.utc)
 
     if action == SEND:
-        token = f.encrypt_at_time(src_data, ts)
+        token = f.encrypt_at_time(src_data, ts)  # type: ignore
         control_ts = f.extract_timestamp(token)
         control_ts_dt = dti.datetime.fromtimestamp(control_ts, dti.timezone.utc)
         print(f'DEBUG: timestamp embedded:  {control_ts} ({ts_dt})', file=sys.stderr)
@@ -113,7 +114,7 @@ def app(argv=None) -> int:
         print(ARMOR_SALT_END, file=sys.stderr)
         return 0
 
-    if src_data.startswith(ARMOR_MSG_BEGIN_BYTES) and len(src_data) > ARMOR_PADDED_LENGTH:
+    if src_data.startswith(ARMOR_MSG_BEGIN_BYTES) and len(src_data) > ARMOR_PADDED_LENGTH:  # type: ignore
         src_data = src_data[len(ARMOR_MSG_BEGIN_BYTES) + 1 : -len(ARMOR_MSG_END_BYTES) + 1]
 
     rcv = base64.decodebytes(src_data)
