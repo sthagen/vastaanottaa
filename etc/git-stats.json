@@ -1,25 +1,121 @@
 {
   "total": {
-    "commits": 2882,
+    "commits": 2900,
     "first_committed_at": "2023-06-11T10:51:10+00:00",
-    "last_committed_at": "2025-06-26T21:09:45+00:00",
-    "month_span_day_count": 746,
-    "year_span": 2.043835616438356,
-    "commits_per_year": 1410,
-    "insertions_per_year": 9147.01742627346,
-    "deletions_per_year": 4591.856568364612,
-    "lines_per_year": 13738.87399463807,
-    "files_per_year": 1435.5361930294907,
-    "insertions_count": 18695,
-    "deletions_count": 9385,
-    "lines_count": 28080,
-    "files_count": 2934,
-    "insertions_avg": 6.486814712005551,
-    "deletions_avg": 3.256419153365718,
-    "lines_avg": 9.74323386537127,
-    "files_avg": 1.0180430256766135
+    "last_committed_at": "2025-07-06T10:14:10+00:00",
+    "month_span_day_count": 755,
+    "year_span": 2.0684931506849313,
+    "commits_per_year": 1401,
+    "insertions_per_year": 9051.033112582782,
+    "deletions_per_year": 4550.172185430464,
+    "lines_per_year": 13601.205298013247,
+    "files_per_year": 1426.6423841059604,
+    "insertions_count": 18722,
+    "deletions_count": 9412,
+    "lines_count": 28134,
+    "files_count": 2951,
+    "insertions_avg": 6.4558620689655175,
+    "deletions_avg": 3.2455172413793103,
+    "lines_avg": 9.701379310344828,
+    "files_avg": 1.0175862068965518
   },
   "commit_stats": {
+    "2025-07-06T10:14:10+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-07-05T05:41:51+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-07-05T04:15:55+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-07-04T20:05:00+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-07-03T20:13:09+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-07-03T19:27:59+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-07-03T19:24:09+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-07-02T20:22:55+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-07-02T19:38:02+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-07-02T19:34:51+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-07-01T15:55:44+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-07-01T15:52:00+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-30T20:02:17+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-30T19:17:14+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-30T19:12:14+00:00": {
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-06-29T11:31:04+00:00": {
+      "insertions": 12,
+      "deletions": 12,
+      "lines": 24,
+      "files": 2
+    },
     "2025-06-26T21:09:45+00:00": {
       "insertions": 1,
       "deletions": 1,
@@ -18000,6 +18096,76 @@
       "deletions": 3,
       "lines": 6,
       "files": 3
+    },
+    "2025-06-27": {
+      "commits": 0,
+      "insertions": 0,
+      "deletions": 0,
+      "lines": 0,
+      "files": 0
+    },
+    "2025-06-28": {
+      "commits": 0,
+      "insertions": 0,
+      "deletions": 0,
+      "lines": 0,
+      "files": 0
+    },
+    "2025-06-29": {
+      "commits": 1,
+      "insertions": 12,
+      "deletions": 12,
+      "lines": 24,
+      "files": 2
+    },
+    "2025-06-30": {
+      "commits": 3,
+      "insertions": 3,
+      "deletions": 3,
+      "lines": 6,
+      "files": 3
+    },
+    "2025-07-01": {
+      "commits": 2,
+      "insertions": 2,
+      "deletions": 2,
+      "lines": 4,
+      "files": 2
+    },
+    "2025-07-02": {
+      "commits": 3,
+      "insertions": 3,
+      "deletions": 3,
+      "lines": 6,
+      "files": 3
+    },
+    "2025-07-03": {
+      "commits": 3,
+      "insertions": 3,
+      "deletions": 3,
+      "lines": 6,
+      "files": 3
+    },
+    "2025-07-04": {
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
+    },
+    "2025-07-05": {
+      "commits": 2,
+      "insertions": 2,
+      "deletions": 2,
+      "lines": 4,
+      "files": 2
+    },
+    "2025-07-06": {
+      "commits": 1,
+      "insertions": 1,
+      "deletions": 1,
+      "lines": 2,
+      "files": 1
     }
   }
 }
