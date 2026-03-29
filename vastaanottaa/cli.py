@@ -77,7 +77,8 @@ def app(argv=None) -> int:
     src_path = pathlib.Path(src)
     if src_path.is_file():
         print('INFO: Reading content from file', file=sys.stderr)
-        src_data = src_path.open('rb').read()
+        with open(src_path, 'rb') as source:
+            src_data = source.read()
     else:
         print('INFO: Loading content from parameter', file=sys.stderr)
         src_data = src.encode(ENCODING)
